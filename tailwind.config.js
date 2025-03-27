@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'landing':"url('src/bg.image.jpg')"
+        'landing':"url('src/landing.jpg')"
       }
     },
   },
