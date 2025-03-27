@@ -1,9 +1,8 @@
 function App(){
   return(<>
     
-    <div className= "bg-landing">
-      <h1>Your Daily Weather</h1>
-
+    <div className="h-screen bg-landing">
+      
   
   
  </div>
