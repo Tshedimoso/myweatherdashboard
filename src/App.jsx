@@ -1,7 +1,7 @@
 function App(){
   return(<>
     
-    <div className="h-screen bg-landing">
+    <div className="h-screen bg-landing bg-cover">
       
   
   
