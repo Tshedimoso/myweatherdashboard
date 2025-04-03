@@ -1,8 +1,13 @@
+import Navbar from "./components/navbar";
+
+
+
 function App(){
   return(<>
     
     <div className="h-screen bg-landing bg-cover">
       <div className="absolute inset-0 bg-black/50">
+<Navbar/>
 
       </div>
   
