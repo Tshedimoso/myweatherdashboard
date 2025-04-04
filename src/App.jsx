@@ -1,3 +1,5 @@
+
+import About from "./about";
 import Navbar from "./components/navbar";
 import SearchBox from "./components/search_box";
 import Introduction from "./h1";
@@ -22,8 +24,8 @@ function App(){
   
  </div>
 
- <div className="bg-blue-300 h-24">
-
+ <div className="bg-blue-200 h-100">
+<About/>
 
  </div>
 
