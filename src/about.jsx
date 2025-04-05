@@ -1,14 +1,13 @@
-import Bulb from "./components/Icons/lightbulb"
+import Logo1 from "./Logo1"
 import Paragraph from "./paragraph"
 
 function About(){
-    return(
-        <div className="p-4 flex space-x-0 ">
-<Bulb/>
-<span className="text-black text-2xl mt-5  font-bold ">Accurate Forecast</span>
-<Paragraph/>
+    return (
+        <div>
+            <Logo1/>
+            <Paragraph/>
         </div>
     )
-}
+};
 
-export default About
+export default About ;
