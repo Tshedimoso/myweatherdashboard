@@ -1,18 +1,20 @@
 import { useEffect, useState } from "react";
-import { getWeather } from "./api/weather";
+import { getWeather } from "./api/weather"; 
+import Name from "./components/justlogo";
+ 
+ 
+ <Name/>
+const [weather, setWeather] = useState(null);
 
-function App(){
-
-    const [weather, setWeather] = useState(null);
-  
-    useEffect(() => {
-      getWeather("Johannesburg").then((data) => {
-        setWeather(data);
-      });
-    }, []);
+  useEffect(() => {
+    getWeather("Johannesburg").then((data) => {
+      setWeather(data);
+    });
+    
+  }, []);
 
 
-    return(<div className="p-6">
+<div className="p-6">
         {weather ? (
           <div className="space-y-2">
             <h2 className="text-2xl font-semibold">{weather.name}</h2>
@@ -24,7 +26,3 @@ function App(){
           <p>Loading weather...</p>
         )}
       </div>
-    )
-
-}
-
